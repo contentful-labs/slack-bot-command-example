@@ -14,7 +14,7 @@ Copy the token value for the Slash Command into the `.env` file in your project.
 
 ## Step 3: Copy the CMA token from Contentful
 
-Go to your Contentful account and get a Content Management Token. Add it to `env`, too.
+Go to your Contentful account and get a Content Management Token (`CF_CMA_TOKEN`). Add it to `env`, too.
 
 ## Step 4: Define the content type you want to deal with
 
