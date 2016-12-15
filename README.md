@@ -1,7 +1,7 @@
 Welcome to a Contentful Command Slack Bot
 =========================
 
-This app will help you to display entries a given post type right in Slack.
+This app was build to run on [Gomix](https://gomix.com) and will help you to display entries a given post type right in Slack.
 
 It implements a simple slash command handler which will help you to quickly access and create data stored in [Contentful](https://www.contentful.com).
 
