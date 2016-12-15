@@ -10,7 +10,7 @@ You can set it to anything, so long as you update the handler for it in the proj
 
 ## Step 2: Copy the Command Token
 
-Copy the token value for the Slash Command into the `.env` file in your project. You'll see an entry for SLACK_TOKEN. Paste the token against that variable name.
+Copy the token value for the Slash Command into the `.env` file in your project. You'll see an entry for `SLACK_TOKEN`. Paste the token against that variable name.
 
 ## Step 3: Copy the CMA token from Contentful
 
@@ -19,3 +19,9 @@ Go to your Contentful account and get a Content Management Token. Add it to `env
 ## Step 4: Define the content type you want to deal with
 
 This projects purpose is to display entries in a given space of a content type in a particular language. Fill these infos also in the `.env` file and you're ready to go.
+
+Things to set:
+
+- `CF_POST_CONTENT_TYPE_ID`
+- `CF_SPACE_ID`
+- `CF_LANGUAGE`

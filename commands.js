@@ -17,8 +17,8 @@ const commands = {
    * Retrieve all posts by CMA
    */
   'all-posts' : {
-    help  : 'See all posts (published and unpublished)',
-    fn    : () => {
+    help : 'See all posts (published and unpublished)',
+    fn   : () => {
       return getFormattedListResponse( 'All posts (published and drafts):');
     }
   },
